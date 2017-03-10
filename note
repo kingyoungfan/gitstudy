@@ -24,4 +24,18 @@
    移动文件时，方法1和方法2等价。
 8、查看提交历史:git log --stat
 
-9、撤销操作:git commit --amend
+9、撤销操作:
+   1)修改最后一次提交git commit --amend
+   2)取消已经暂存的文件(在暂存区域的文件):git reset HEAD file_name
+   3)取消对文件的修改:git checkout -- file_name #慎用执行此命令之后，所有对文件的修改都没有了
+
+10、远程仓库
+    1)查看当前的远程仓库:git remote -v
+    2)添加远程仓库:git remote add [shortname] [url]
+    3)从远程仓库抓取数据:git fetch [remote-name]
+    4)推送数据到远程仓库:git push origin master
+    5)查看远程仓库信息:git remote show [remote-name]
+    6)重命名远程分支:git remote rename pb paul
+    7)删除远程分支:git remote rm paul
+
+
