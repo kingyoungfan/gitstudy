@@ -16,3 +16,10 @@
 5、git diff --staged/cached 查看已缓存起来的变化。
 
 6、跳过暂存区：git commit -a -m 'udpate'
+
+7、1)git mv READ.txt READ;
+   2)mv READ.txt READ
+     git rm READ.txt
+     git add READ
+   移动文件时，方法1和方法2等价。
+8、查看提交历史:git log --stat
