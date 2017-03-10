@@ -38,4 +38,8 @@
     6)重命名远程分支:git remote rename pb paul
     7)删除远程分支:git remote rm paul
 
-
+11、标签，git标签有两种，一种是轻量级的，一种是含附注的
+    1)显示已有的所有标签:git tag
+    2)新建标签:git tag -a v1.2.2 -m 'my version 1.2.2'
+	-a annotated字母的缩写 -m 标签说明
+    3)查看标签的版本信息:git show tag_name
