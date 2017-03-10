@@ -1,3 +1,4 @@
+
 0、对于任何一个文件，在git内部只有三种状态
     1)已提交(committed)
     2)已修改(modified)
@@ -10,3 +11,8 @@
 2、忽略文件 .gitignore
 
 3、git文件流转的三个区域: 1)git的工作目录；2)暂存区域；3)本地仓库。
+
+4、git diff 查看暂存前后的变化。
+
+5、git diff --staged/cached 查看已缓存起来的变化。
+
