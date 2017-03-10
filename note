@@ -23,3 +23,5 @@
      git add READ
    移动文件时，方法1和方法2等价。
 8、查看提交历史:git log --stat
+
+9、撤销操作:git commit --amend
